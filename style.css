@@ -10,10 +10,6 @@ body {
     padding: 0 0;
 }
 
-.navbar {
-    background-color: #1f2937;
-}
-
 header {
     display: flex;
     justify-content: space-between;
