@@ -10,11 +10,16 @@ body {
     padding: 0 0;
 }
 
+.navbar {
+    background-color: #1f2937;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    margin-bottom: 3em;
 }
 
 a {
@@ -29,6 +34,7 @@ a:hover, a:focus {
 
 .logo {
     font-size: 24px;
+    color: white;
 }
 
 .nav-links {
@@ -36,18 +42,20 @@ a:hover, a:focus {
     justify-content: space-evenly;
     list-style: none;
     gap: 15px;
+    color: white;
 }
 
 .hero-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    margin: 4em 0em;
 }
 
 
 .hero {
     background-color: #1f2937;
-    padding: 5em;
+    padding: 2em 2em;
 }
 
 
